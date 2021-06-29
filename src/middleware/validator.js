@@ -1,8 +1,4 @@
 'use strict';
 module.exports = (req, res, next) => {
-  if (req.query.name) {
-    next();
-  } else {
-    throw new Error('theres no querey');
-  }
+  req.query.name ? next() : next('theres no querey');
 };
