@@ -5,3 +5,7 @@
 [dev branch deployed link](https://github.com/ahmadammmoura/basic-express-server/tree/dev)
 
 [action link](https://github.com/ahmadammmoura/basic-express-server/actions)
+
+## UML
+
+![uml-Img](img/lab2UML.jpg)
